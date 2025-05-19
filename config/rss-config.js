@@ -22,6 +22,7 @@ export const config = {
       name: "Github 近一周热门",
       url: "https://rsshub.rssforever.com/github/trending/weekly/any",
       category: "代码项目",
+    },
     {
       name: "LINUX DO 今日热门",
       url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily",
