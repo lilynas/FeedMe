@@ -14,26 +14,6 @@
 export const config = {
   sources: [
     {
-      name: "Github 今日热门",
-      url: "https://rsshub.rssforever.com/github/trending/daily/any",
-      category: "代码项目",
-    },
-    {
-      name: "Github 近一周热门",
-      url: "https://rsshub.rssforever.com/github/trending/weekly/any",
-      category: "代码项目",
-    },
-    {
-      name: "V2EX 今日热门",
-      url: "https://rsshub.rssforever.com/v2ex/topics/hot",
-      category: "论坛",
-    },
-    {
-      name: "Bangumi 近一月热门",
-      url: "https://rsshub.rssforever.com/bangumi.tv/anime/followrank",
-      category: "番剧资讯",
-    },
-    {
       name: "联合早报即时新闻",
       url: "https://rsshub.rssforever.com/zaobao/realtime/china",
       category: "新闻媒体",
@@ -53,6 +33,21 @@ export const config = {
       url: "https://feedx.net/rss/chosun.xml",
       category: "新闻媒体",
     },
+        {
+      name: "纽约时报",
+      url: "https://feedx.net/rss/nytimes.xml",
+      category: "新闻媒体",
+    },
+    {
+  name: "DW",
+  url: "https://feedx.net/rss/dw.xml",
+  category: "新闻媒体",
+   },
+    {
+  name: "光明日报",
+  url: "https://feedx.net/rss/guangmingribao.xml",
+  category: "报纸摘要",
+},
   ],
   maxItemsPerFeed: 30,
   dataPath: "./data",
