@@ -14,11 +14,6 @@
 export const config = {
   sources: [
     {
-      name: "联合早报即时新闻",
-      url: "https://rsshub.rssforever.com/zaobao/realtime/china",
-      category: "新闻媒体",
-    },
-    {
       name: "BBC World News",
       url: "https://rsshub.rssforever.com/bbc/world-asia",
       category: "新闻媒体",
@@ -42,12 +37,7 @@ export const config = {
   name: "DW",
   url: "https://feedx.net/rss/dw.xml",
   category: "新闻媒体",
-   },
-    {
-  name: "光明日报",
-  url: "https://feedx.net/rss/guangmingribao.xml",
-  category: "报纸摘要",
-},
+   }
   ],
   maxItemsPerFeed: 30,
   dataPath: "./data",
